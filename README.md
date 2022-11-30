@@ -1,5 +1,15 @@
-# JQuery Carousel, heavily influenced by project below.
-Must You must have: 
+# JQuery Carousel and a bootstrap row layout widgets heavily influenced by project below.
+Jquery Carousel found in Scripts\ckeditor\plugins\jqcarousel
+Bootstrap Grid found in Scripts\ckeditor\plugins\bootstrapgrid
+
+
+Must You must have:
+ckeditor widget plugin installed
+config.filebrowserUploadUrl   to the URL which will receive the images as form data
+It requires that you setup your own API call to save and serve the images.
+Examples of this are in the home controller.
+
+Bootstrap-3.4.1
 jquery-3.4.1
 jquery.easing.min.js
 jquery.fittext.js
@@ -8,38 +18,36 @@ jquery-ui-1.12.1.js
 jquery-ui-1.12.1.min.js
 wow.min.js
 
-Must have jquery loaded during instance ready of the editor   See EditHome.cshtml
+Must have jquery and bootstrap loaded during instance ready of the editor   See EditHome.cshtml
 CKEDITOR.on('instanceReady', function (ev
 
-
-Heavily influenced by project below. My version is not a stand alone and is built in as a widget.
-It requires that you setup your own API call to save and serve the images.
-Examples of this are in the home controller.
+Must load bootstrap.min.css in scripts\ckeditor\config.js
+Using parameter  config.contentCss = ['../RootPath/To/bootstrap.min.css']
 
 
-# [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
+Carousel Heavily influenced by project below. http://startbootstrap.com/template-overviews/creative/
+Bootstrapgrid Heavily influenced by project  https://ckeditor.com/cke4/addon/btgrid 
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-## Getting Started
-
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
-
-## Bugs and Issues
-
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
-
-## Creator
-
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Partner at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-creative/blob/gh-pages/LICENSE) license.
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
