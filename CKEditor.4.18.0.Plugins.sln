@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKEditor.4.18.0.Plugins", "CKEditor.4.18.0.Plugins\CKEditor.4.18.0.Plugins.csproj", "{1512970B-AAB0-49C9-BDDD-B7A0A0A59900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1512970B-AAB0-49C9-BDDD-B7A0A0A59900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1512970B-AAB0-49C9-BDDD-B7A0A0A59900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1512970B-AAB0-49C9-BDDD-B7A0A0A59900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1512970B-AAB0-49C9-BDDD-B7A0A0A59900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EC884C9-B227-41AD-A135-113FBE9E1B0B}
+	EndGlobalSection
+EndGlobal

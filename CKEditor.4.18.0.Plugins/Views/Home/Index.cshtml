@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@Styles.Render("~/Scripts/ckeditor/contents.css")
+
+@*Needed to stylize the carousel*@
+@Styles.Render("~/Scripts/ckeditor/plugins/jqcarousel/styles/jqcarousel.css")
+
+@*Needed to stylize the bootstrap grid*@
+@Styles.Render("~/Scripts/ckeditor/plugins/bootstrapbrid/styles/readview.css")
+
+@*Needed to remove edit buttons for view*@
+@Scripts.Render("~/Scripts/ckeditor/plugins/jqcarousel/lib/jqcarouselreadonly.js")
+
+@*load the partial page that is saved during the edit process*@
+@Html.Partial("HomeInternal")
+
