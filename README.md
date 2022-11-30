@@ -1,4 +1,5 @@
-# JQuery Carousel and a bootstrap row layout widgets heavily influenced by project below.
+# Ckeditor 4.18.0 JQuery Carousel  /  Bootstrap Row layout widgets 
+Heavily influenced by project below.
 Jquery Carousel found in Scripts\ckeditor\plugins\jqcarousel
 Bootstrap Grid found in Scripts\ckeditor\plugins\bootstrapgrid
 
