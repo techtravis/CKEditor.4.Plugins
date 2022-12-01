@@ -165,6 +165,9 @@
     <Content Include="Scripts\ckeditor\plugins\jqcarousel\dialogs\jqcarousel.js" />
     <Content Include="Scripts\ckeditor\plugins\jqcarousel\dialogs\jqcarouselupload.js" />
     <Content Include="Scripts\ckeditor\plugins\jqcarousel\icons\jqcarousel.png" />
+    <Content Include="Scripts\ckeditor\plugins\jqcarousel\images\InsertImageHere.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Scripts\ckeditor\plugins\jqcarousel\lib\helper.js" />
     <Content Include="Scripts\ckeditor\plugins\jqcarousel\lib\jqcarouselreadonly.js" />
     <Content Include="Scripts\ckeditor\plugins\jqcarousel\plugin.js" />

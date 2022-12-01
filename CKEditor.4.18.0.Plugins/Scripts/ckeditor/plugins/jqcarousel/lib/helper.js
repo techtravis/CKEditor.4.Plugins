@@ -97,7 +97,7 @@ var addEditControls = function () {
                 var new_indicator = '<li data-target="#' + carouselID + '" data-slide-to="' + (count_carousel) + '" class="active"></li>';
 
                 var new_slider = '<div class="item ' + carouselID + ' active" data-slide-index="' + count_carousel + '">';
-                new_slider += '<img src="../Content/images/placeholder-banner.png" alt="..." class="w100p">';
+                new_slider += '<img src="../Scripts/ckeditor/plugins/jqcarousel/images/InsertImageHere.png" alt="..." class="w100p">';
                 new_slider += '<div class="carousel-caption"> ';
                 //new_slider += 'Slider ' + (count_carousel + 1) + ' Caption';
                 new_slider += '</div>';
