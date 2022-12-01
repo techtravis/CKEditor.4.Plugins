@@ -1,5 +1,6 @@
 # Ckeditor 4.18.0 JQuery Carousel  /  Bootstrap Row layout widgets
 This is a working .net 4.8 Framework MVC site with examples of the 2 plugins below.
+Short Video Demo can be seen at:  https://youtu.be/5zr4o7TVCng 
  
 Heavily influenced by project below.
 Jquery Carousel found in:
